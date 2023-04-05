@@ -44,3 +44,15 @@ In the Project we are going to perform a EDA to deep dive into the trends hidden
 12.It was 4th day of April when the Appliances have consumed highest amount of energy.
 
 13.When we come to the weekdays, Saturday was the day when highest Energy have been consumed by Appliances.
+
+## Conclusion
+
+The Linear Regression Model for pedicting the appliances energy shows the 35% accuracy for training dataste and 33% for testing accuracy.
+
+The Lasso and Ridge Regularization do not show much significant improvement over the normal Linear Regression. Only 2% of accuracy have been improved in Regularization.
+
+The Decision Tree Regressor have shown a significant improvement for both train and test accuracy. It shows 72% accuracy for training Dataset an 46% accuracy for the testing Dataset. But still the model is very less in its accuracy.
+
+So Extreme Gradient Boost Regressor is turn to be most significant model here with highest train and test accuracy , 89% and 63% respectively.
+
+It is turn out to be that the Temperature outside the building, temperature of parents room and Dewpoint contributes for maximum significance while calculating the model.
