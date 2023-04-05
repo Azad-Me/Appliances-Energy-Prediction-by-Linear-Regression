@@ -1,6 +1,9 @@
 # Appliances-Energy-Prediction-by-Linear-Regression
 The Dataset is at 10 min for about 4.5 months. The house temperature and humidity conditions were monitored with a ZigBee wireless sensor network.Each wireless node transmitted the temperature and humidity conditions around 3.3 min. Then, the wireless data was averaged for 10 minutes. The energy data was logged every 10 minutes with m-bus energy metres. Weather from the nearest airport weather station(Chievres Airport,Belgium) was downloaded from a public data set from Reliable Prognosis (rp5.ru) and merged together with the experimental data sets using the date and time column. Two random variables have been included in the data set for testing the regression models and to filter out non-predictive attributes. You need to predict the energy use of appliances.
 
+![image](https://user-images.githubusercontent.com/122529968/229991524-602ecc8b-b8a5-4343-8630-d6b1b123deac.png)
+
+
 ## Problem Statement
 The Dataset is at 10 min for about 4.5 months. The house temperature and humidity conditions were monitored with a ZigBee wireless sensor network.Each wireless node transmitted the temperature and humidity conditions around 3.3 min. Then, the wireless data was averaged for 10 minutes. The energy data was logged every 10 minutes with m-bus energy metres. Weather from the nearest airport weather station(Chievres Airport,Belgium) was downloaded from a public data set from Reliable Prognosis (rp5.ru) and merged together with the experimental data sets using the date and time column. Two random variables have been included in the data set for testing the regression models and to filter out non-predictive attributes. You need to predict the energy use of appliances.
 
@@ -16,28 +19,28 @@ In the Project we are going to perform a EDA to deep dive into the trends hidden
 
 ## Project Insights
 
- In the Dataset, the Appliances feature and Date feature is unleashing the large amount of information.
+ 1.In the Dataset, the Appliances feature and Date feature is unleashing the large amount of information.
 
-The remaining columns are usuall and standard at their on an average value. For e.g the Atmospheric Pressure column shows most of the normal variation as it remain constant most of the times.
+2.The remaining columns are usuall and standard at their on an average value. For e.g the Atmospheric Pressure column shows most of the normal variation as it remain constant most of the times.
 
-The temperature at rooms are mostly average and humidity also show variation around its mean value.For e.g The normal room temperature of kitchen is near about 20 degrees.
+3.The temperature at rooms are mostly average and humidity also show variation around its mean value.For e.g The normal room temperature of kitchen is near about 20 degrees.
 
-In most of the rooms the temp is very normal and maintained.But the mean temperature outside the building is very low at 7.5 degrees.
+4.In most of the rooms the temp is very normal and maintained.But the mean temperature outside the building is very low at 7.5 degrees.
 
-The Dataset has been studied in Belgium, which is an european country and face North Sea from North-West in addition, it has close geographical connections with Scandanavian countries which are very cold places and comes under the Arctic Circle.
+5.The Dataset has been studied in Belgium, which is an european country and face North Sea from North-West in addition, it has close geographical connections with Scandanavian countries which are very cold places and comes under the Arctic Circle.
 
-This might be the reason for its very less temperature.
+6.This might be the reason for its very less temperature.
 
-Despite of having very less outside temperature,the room temperatures are maintained throughout all the rooms. Hence the house may be using the heaters inside the rooms, so this may have incresed the room temperature. So increased temperature may not only due to using the Appliances but due to some other factors also.
+7.Despite of having very less outside temperature,the room temperatures are maintained throughout all the rooms. Hence the house may be using the heaters inside the rooms, so this may have incresed the room temperature. So increased temperature may not only due to using the Appliances but due to some other factors also.
 
-These factors can be anything, so observing the energy consumption in houses may underperform in comparison with recorded temperature.
+8.These factors can be anything, so observing the energy consumption in houses may underperform in comparison with recorded temperature.
 
-When we have studied the months and its energy consumption, we just have grouped all the months and find out the sum of energy consumption in whole month.
+9.When we have studied the months and its energy consumption, we just have grouped all the months and find out the sum of energy consumption in whole month.
 
-The Dataset is studied in 2016 and for its first five months.It has been found that the month of march shows highest energy consumption by Appliances, near about 43000 Wh.
+10.The Dataset is studied in 2016 and for its first five months.It has been found that the month of march shows highest energy consumption by Appliances, near about 43000 Wh.
 
-When we used 'hour' as our basis of analysis, we got to know about the evening's 6 'o' clock when the energy consumption is highest from whole day in the four months.
+11.When we used 'hour' as our basis of analysis, we got to know about the evening's 6 'o' clock when the energy consumption is highest from whole day in the four months.
 
-It was 4th day of April when the Appliances have consumed highest amount of energy.
+12.It was 4th day of April when the Appliances have consumed highest amount of energy.
 
-When we come to the weekdays, Saturday was the day when highest Energy have been consumed by Appliances.
+13.When we come to the weekdays, Saturday was the day when highest Energy have been consumed by Appliances.
